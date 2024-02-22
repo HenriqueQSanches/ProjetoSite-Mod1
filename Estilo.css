@@ -1,0 +1,145 @@
+body {
+    font-family: fonteCorpo;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tituloPage {
+    text-align: center;
+    color: rgba(252, 252, 252, 0.863);
+}
+
+.background {
+    background-image: url(bgTESTE2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 5px;
+    font-family: minhaFonte;
+    font-size: xx-large;
+}
+
+.menu .inicioClicado {
+    text-decoration: overline;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgba(219, 219, 219, 0.411);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    margin: 250px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu li a:hover {
+    background-color: rgb(43, 21, 163);
+    color: rgb(202, 202, 250)
+    
+}
+
+@font-face {
+    font-family: minhaFonte;
+    src: url("Timeless\ Free.ttf");
+}
+
+@font-face {
+    font-family: fonteCorpo;
+    src: url(Story\ Vampire.otf);
+}
+
+@font-face {
+    font-family: fonteRelogio;
+    src: url(FontRelogio.TTF);
+}
+
+@font-face {
+    font-family: fontePage;
+    src: url(Candy\ Cane.otf);
+}
+
+.horas {
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-family: fonteRelogio;
+    color: rgba(255, 145, 0, 0.815)
+}
+
+.page {
+    color: rgb(12, 12, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    height: auto;
+    width: auto;
+    margin: 40px 650px;
+    padding: 30px;
+    background-color: rgba(172, 255, 39, 0.3);
+    /* background-color: rgba(172, 255, 39, 0.4); --> Era assim que estava anteriormente */
+    border-radius: 50px;
+}
+
+.page h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(12, 12, 12);
+}
+
+/*    Aqui, fiz para que a mensagem apareça só ao passar o mouse, mas não senti que teve um bom aspecto visual nessa parte do site, por isso deixei comentada, apenas.
+
+.page {
+    height: auto;
+    width: auto;
+    font-family: Comic Sans MS;
+    margin: 40px 650px;
+    padding: 30px;
+    background-color: rgba(172, 255, 39, 0.2);
+    border-radius: 50px;
+}
+
+.page h3 {
+
+    visibility: hidden;
+    font-size: large;
+    font-weight: bolder;
+    opacity: 0;
+    transition: opacity 0.3;
+
+}
+
+.page h2 {
+    visibility: hidden;
+    font-size: large;
+    font-weight: bolder;
+    opacity: 0;
+    transition: opacity 0.3;
+}
+
+.page:hover h3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+*/
+
+
