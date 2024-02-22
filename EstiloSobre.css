@@ -60,7 +60,7 @@
 
 @font-face {
     font-family: minhaFonte;
-    src: url("Timeless\ Free.ttf");
+    src: url(TimelessFree.otf);
 }
 
 /* Fonte Relógio */
@@ -68,4 +68,14 @@
 @font-face {
     font-family: fonteRelogio;
     src: url(FontRelogio.TTF);
+}
+
+@font-face {
+    font-family: fonteCorpo;
+    src: url(StoryVampire.otf);
+}
+
+@font-face {
+    font-family: fontePage;
+    src: url(CandyCane.otf);
 }

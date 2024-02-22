@@ -57,12 +57,12 @@ h1 {
 
 @font-face {
     font-family: minhaFonte;
-    src: url("Timeless\ Free.ttf");
+    src: url(TimelessFree.otf);
 }
 
 @font-face {
     font-family: fonteCorpo;
-    src: url(Story\ Vampire.otf);
+    src: url(StoryVampire.otf);
 }
 
 @font-face {
@@ -72,7 +72,7 @@ h1 {
 
 @font-face {
     font-family: fontePage;
-    src: url(Candy\ Cane.otf);
+    src: url(CandyCane.otf);
 }
 
 .horas {
