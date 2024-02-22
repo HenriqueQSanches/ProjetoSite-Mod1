@@ -1,0 +1,71 @@
+.bg2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(bg2.jpg);
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 5px;
+    font-family: minhaFonte;
+    font-size: xx-large;
+}
+
+.menu .sobreClicado {
+    text-decoration: overline;
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgba(219, 219, 219, 0.411);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    margin: 250px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu li a:hover {
+    background-color: rgb(43, 21, 163);
+    color: rgb(202, 202, 250)
+    
+}
+
+.horas {
+    font-size: x-large;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-family: fonteRelogio;
+    color: rgba(255, 145, 0, 0.815)
+}
+
+
+/* FONTES ABAIXO */
+
+/* Fonte Menu */
+
+@font-face {
+    font-family: minhaFonte;
+    src: url("Timeless\ Free.ttf");
+}
+
+/* Fonte Relógio */
+
+@font-face {
+    font-family: fonteRelogio;
+    src: url(FontRelogio.TTF);
+}
