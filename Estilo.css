@@ -21,7 +21,6 @@ h1 {
 
 .menu {
     background-color: rgba(0, 0, 0, 0);
-    padding: 5px 5px;
     font-family: minhaFonte;
     font-size: xx-large;
 }
@@ -103,6 +102,26 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(12, 12, 12);
+}
+
+/* PARTE PARA MOBILE ABAIXO */
+
+@media screen and (max-width: 768px) {
+
+    .menu li a {
+        margin: 10px;
+    }
+
+    .page {
+        margin: 10px;
+        font-size: medium;
+    }
+
+    .horas {
+        color: rgb(255, 255, 255);
+        margin: 10px;
+    }
+
 }
 
 /*    Aqui, fiz para que a mensagem apareça só ao passar o mouse, mas não senti que teve um bom aspecto visual nessa parte do site, por isso deixei comentada, apenas.

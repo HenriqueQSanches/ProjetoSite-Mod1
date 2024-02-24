@@ -79,3 +79,18 @@
     font-family: fontePage;
     src: url(CandyCane.otf);
 }
+
+/* PARTE PARA MOBILE ABAIXO */
+
+@media screen and (max-width: 768px) {
+
+    .menu li a {
+        margin: 10px;
+    }
+
+    .horas {
+        color: rgb(255, 255, 255);
+        margin: 10px;
+    }
+
+}
