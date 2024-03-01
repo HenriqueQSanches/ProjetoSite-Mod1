@@ -7,6 +7,7 @@
 }
 
 .menu {
+    animation: virarTitulos 2s;
     background-color: rgba(0, 0, 0, 0);
     padding: 5px 5px;
     font-family: minhaFonte;
@@ -37,9 +38,7 @@
 }
 
 .menu li a:hover {
-    background-color: rgb(43, 21, 163);
-    color: rgb(202, 202, 250)
-    
+    font-weight: bolder;
 }
 
 .horas {
@@ -51,6 +50,38 @@
     padding: 10px;
     font-family: fonteRelogio;
     color: rgba(255, 145, 0, 0.815)
+}
+
+.pageSobre {
+    color: rgb(252, 255, 252);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    height: auto;
+    width: auto;
+    margin: 40px 650px;
+    padding: 30px;
+    background-color: rgba(15, 15, 15, 0.877);
+    /* background-color: rgba(172, 255, 39, 0.4); --> Era assim que estava anteriormente */
+    border-radius: 50px;
+}
+
+.titlepageSobre {
+    color: white;
+    text-align: center;
+    font-family: fonteCorpo;
+    font-size: xx-large;
+}
+
+.Link1 {
+    color: rgba(255, 255, 0, 0.568);
+}
+
+.Link2 {
+    color: rgba(255, 255, 0, 0.568);
+}
+
+.Link3 {
+    color: rgba(255, 255, 0, 0.568);
 }
 
 
@@ -78,6 +109,17 @@
 @font-face {
     font-family: fontePage;
     src: url(CandyCane.otf);
+}
+
+/* ANIMAÇÕES */
+
+@keyframes virarTitulos {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
 }
 
 /* PARTE PARA MOBILE ABAIXO */

@@ -20,6 +20,7 @@ h1 {
 }
 
 .menu {
+    animation: virarTitulos 2s;
     background-color: rgba(0, 0, 0, 0);
     font-family: minhaFonte;
     font-size: xx-large;
@@ -49,10 +50,19 @@ h1 {
 }
 
 .menu li a:hover {
-    background-color: rgb(43, 21, 163);
-    color: rgb(202, 202, 250)
-    
+    font-weight: bolder;
 }
+
+@keyframes virarTitulos {
+    from {
+        transform: rotateX(90deg);
+    }
+    to {
+        transform: rotateX(0deg);
+    }
+}
+
+
 
 @font-face {
     font-family: minhaFonte;

@@ -9,7 +9,7 @@ function coletarFusoBrasil() {
 
 
 function exibirFusoBrasil() {
-    fusoBrasil = new Date()
+    fusoBrasil = new Date();
     let exibirFuso = fusoBrasil.toLocaleString();
     document.getElementById("outBrasil").innerHTML = exibirFuso;
 }
@@ -35,4 +35,15 @@ function atividades() {
     alert("Ainda não está pronto");
 }
 
+function credly() {
+    window.location.assign('https://www.credly.com/users/henrique-sanches.61b10cce/badges');
+}
+
+function linkedin() {
+    window.location.assign('https://www.linkedin.com/in/henrique-quitti-sanches-developer/');
+}
+
+function github() {
+    window.location.assign('https://github.com/henriqueQsanches');
+}
 
