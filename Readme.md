@@ -14,4 +14,4 @@ Tudo que estou utilizando para estudar:
 - Canal Youtube: Rafaella Ballerini
 - Canal Youtube: Alura
 
------- O que falta ser feito? ------
+Como eu disse, esse foi um projeto realizado para um 'visual' diferente do padrão, mas possuo outros projetos seguindo outros tipos de visuais. 

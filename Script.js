@@ -22,7 +22,7 @@ setInterval (exibirFusoBrasil, 1000);
 });
 
 function inicio() {
-    window.location.assign('Index.html')
+    window.location.assign('index.html')
 }
 
 function sobre() {
@@ -32,7 +32,7 @@ function sobre() {
 }
 
 function atividades() {
-    alert("Ainda não está pronto");
+    window.location.assign('Atividades.html');
 }
 
 function credly() {
